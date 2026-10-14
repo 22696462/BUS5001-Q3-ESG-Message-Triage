@@ -1,0 +1,138 @@
+[
+  {
+    "test_id": "ESG-01",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"WATER_LEAK\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Active water leak running all morning in Building C.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Water leak reported in Building C running all morning.\"\n}",
+    "parsed_output": {
+      "issue_category": "WATER_LEAK",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Active water leak running all morning in Building C.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water leak reported in Building C running all morning."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-02",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"ENERGY_WASTE\",\n  \"urgency\": \"MEDIUM\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Air conditioning is running overnight in an empty office.\"\n}",
+    "parsed_output": {
+      "issue_category": "ENERGY_WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Air conditioning is running overnight in an empty office."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-03",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance near the main building has been blocked for two days.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance near the main building has been blocked for two days.\"\n}",
+    "parsed_output": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance near the main building has been blocked for two days.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance near the main building has been blocked for two days."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-04",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"WASTE_RECYCLING\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The recycling bin in Meeting Room 2 is nearly full but not overflowing.\"\n}",
+    "parsed_output": {
+      "issue_category": "WASTE_RECYCLING",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The recycling bin in Meeting Room 2 is nearly full but not overflowing."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-05",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"CRITICAL\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Emergency Response Team\",\n  \"escalation_reason\": \"A suspected gas leak or strong smell of gas with people still inside represents a credible immediate threat to life or serious harm.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Strong smell of gas reported coming from the kitchen while staff are still inside.\"\n}",
+    "parsed_output": {
+      "issue_category": "OTHER",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response Team",
+      "escalation_reason": "A suspected gas leak or strong smell of gas with people still inside represents a credible immediate threat to life or serious harm.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Strong smell of gas reported coming from the kitchen while staff are still inside."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-06",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"Vague report with no described hazard or impact requires clarification.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee reported an unspecified problem in the building.\"\n}",
+    "parsed_output": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Vague report with no described hazard or impact requires clarification.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee reported an unspecified problem in the building."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-07",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"OTHER\",\n  \"urgency\": \"LOW\",\n  \"sentiment\": \"NEUTRAL\",\n  \"followup_required\": \"N\",\n  \"recommended_team\": \"Administration\",\n  \"escalation_reason\": \"None\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"Employee is requesting the minutes from yesterday's meeting.\"\n}",
+    "parsed_output": {
+      "issue_category": "OTHER",
+      "urgency": "LOW",
+      "sentiment": "NEUTRAL",
+      "followup_required": "N",
+      "recommended_team": "Administration",
+      "escalation_reason": "None",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Employee is requesting the minutes from yesterday's meeting."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  },
+  {
+    "test_id": "ESG-08",
+    "attempt": 1,
+    "raw_output": "{\n  \"issue_category\": \"ACCESSIBILITY\",\n  \"urgency\": \"HIGH\",\n  \"sentiment\": \"NEGATIVE\",\n  \"followup_required\": \"Y\",\n  \"recommended_team\": \"Facilities Management\",\n  \"escalation_reason\": \"The accessible entrance is blocked, preventing entry for a wheelchair user.\",\n  \"data_sensitivity_risk\": \"LOW\",\n  \"brief_summary\": \"The accessible entrance is blocked and a wheelchair user cannot enter.\"\n}",
+    "parsed_output": {
+      "issue_category": "ACCESSIBILITY",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "The accessible entrance is blocked, preventing entry for a wheelchair user.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "The accessible entrance is blocked and a wheelchair user cannot enter."
+    },
+    "valid_json": true,
+    "missing_fields": []
+  }
+]
