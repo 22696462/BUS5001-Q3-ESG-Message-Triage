@@ -1,0 +1,9 @@
+test_id,expected_category,expected_urgency,baseline_category,baseline_urgency,llm_category,llm_urgency,valid_json,llm_category_match,llm_urgency_match,baseline_category_match,baseline_urgency_match
+ESG-01,WATER_LEAK,HIGH,WATER_LEAK,HIGH,WATER_LEAK,HIGH,True,True,True,True,True
+ESG-02,ENERGY_WASTE,MEDIUM,ENERGY_WASTE,MEDIUM,ENERGY_WASTE,MEDIUM,True,True,True,True,True
+ESG-03,ACCESSIBILITY,HIGH,ACCESSIBILITY,HIGH,ACCESSIBILITY,HIGH,True,True,True,True,True
+ESG-04,WASTE_RECYCLING,LOW,WASTE_RECYCLING,MEDIUM,WASTE_RECYCLING,LOW,True,True,True,True,False
+ESG-05,OTHER,CRITICAL,OTHER,LOW,OTHER,CRITICAL,True,True,True,True,False
+ESG-06,OTHER,LOW,OTHER,LOW,OTHER,LOW,True,True,True,True,True
+ESG-07,OTHER,LOW,OTHER,LOW,OTHER,LOW,True,True,True,True,True
+ESG-08,ACCESSIBILITY,HIGH,ACCESSIBILITY,HIGH,ACCESSIBILITY,HIGH,True,True,True,True,True

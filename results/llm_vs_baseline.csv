@@ -1,0 +1,4 @@
+test_id,message,expected_category,expected_urgency,baseline_category,baseline_urgency,category_match,urgency_match,llm_category,llm_urgency,llm_sentiment,llm_followup,llm_team,llm_valid_json,api_status,llm_category_match,llm_urgency_match,category_agreement,urgency_agreement
+ESG-01,There is a water leak in Building C that has been running all morning.,WATER_LEAK,HIGH,WATER_LEAK,HIGH,True,True,WATER_LEAK,HIGH,NEUTRAL,Y,Facilities Management,True,SUCCESS,True,True,True,True
+ESG-02,The air conditioning is running overnight in an empty office.,ENERGY_WASTE,MEDIUM,ENERGY_WASTE,MEDIUM,True,True,ENERGY_WASTE,MEDIUM,NEUTRAL,Y,Facilities Management,True,SUCCESS_AFTER_RETRIES,True,True,True,True
+ESG-03,The accessible entrance near the main building has been blocked for two days.,ACCESSIBILITY,HIGH,ACCESSIBILITY,HIGH,True,True,ACCESSIBILITY,HIGH,NEUTRAL,Y,Facilities Management,True,SUCCESS,True,True,True,True

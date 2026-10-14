@@ -1,0 +1,5 @@
+approach,category_correct,urgency_correct,valid_json,category_accuracy_pct,urgency_accuracy_pct
+Rule-based baseline,8,6,Not applicable,100.0,75.0
+Original prompt,7,8,8/8,87.5,100.0
+Refined prompt V1,8,7,8/8,100.0,87.5
+Refined prompt V2,8,8,8/8,100.0,100.0
