@@ -1,0 +1,32 @@
+[
+  {
+    "test_id": "ESG-01",
+    "llm_category": "WATER_LEAK",
+    "llm_urgency": "HIGH",
+    "llm_sentiment": "NEUTRAL",
+    "llm_followup": "Y",
+    "llm_team": "Facilities Management",
+    "llm_valid_json": true,
+    "api_status": "SUCCESS"
+  },
+  {
+    "test_id": "ESG-02",
+    "llm_category": "ENERGY_WASTE",
+    "llm_urgency": "MEDIUM",
+    "llm_sentiment": "NEUTRAL",
+    "llm_followup": "Y",
+    "llm_team": "Facilities Management",
+    "llm_valid_json": true,
+    "api_status": "SUCCESS_AFTER_RETRIES"
+  },
+  {
+    "test_id": "ESG-03",
+    "llm_category": "ACCESSIBILITY",
+    "llm_urgency": "HIGH",
+    "llm_sentiment": "NEUTRAL",
+    "llm_followup": "Y",
+    "llm_team": "Facilities Management",
+    "llm_valid_json": true,
+    "api_status": "SUCCESS"
+  }
+]
